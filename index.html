@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday to the LOML</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans&display=swap');
+
+      .collage-container {
+    position: relative;
+    width: 700px;    /* landscape container */
+    height: 400px;
+    margin: auto;
+
+    border-radius: 12px;
+    
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: visible;
+  }
+
+  .collage-container img {
+    position: absolute;
+    width: 220px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+
+  .collage-container img:hover {
+    transform: scale(1.1) rotate(0deg);
+    z-index: 20;
+    box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+  }
+
+  /* Positions for 5 photos spaced out */
+  .img1 { top: 40px;  left: 20px;  transform: rotate(-6deg);  z-index: 1; }
+  .img2 { top: 60px;  left: 260px; transform: rotate(5deg);   z-index: 2; }
+  .img3 { top: 80px;  left: 500px; transform: rotate(-4deg);  z-index: 3; }
+  .img4 { top: 180px; left: 140px; transform: rotate(7deg);   z-index: 4; }
+  .img5 { top: 190px; left: 400px; transform: rotate(-8deg);  z-index: 5; }
+
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background: url('https://img.freepik.com/free-vector/colorful-elegant-birthday-background_1393-380.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+    }
+
+    .hero {
+      padding: 100px 20px 60px;
+      background-color: rgba(255, 255, 255, 0.9);
+      font-family: 'Pacifico', cursive;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 4rem;
+      color: #ff4081;
+    }
+
+    .section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      background-color: rgba(255, 255, 255, 0.9);
+      margin: 20px;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    .section img {
+      width: 300px;
+      height: auto;
+      margin: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .section p {
+      max-width: 500px;
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 20px;
+    }
+
+    .footer {
+      background-color: rgba(255, 182, 193, 0.9);
+      color: white;
+      padding: 20px;
+      font-size: 14px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="collage-container">
+  <img src="./photo1.jpg" alt="Photo 1" class="img1" />
+  <img src="./photo2.jpg" alt="Photo 2" class="img2" />
+  <img src="./photo3.jpg" alt="Photo 3" class="img3" />
+  <img src="./photo4.jpg" alt="Photo 4" class="img4" />
+  <img src="./photo5.jpg" alt="Photo 5" class="img5" />
+</div>
+  <div class="hero">
+    <h1>Happy 19th Birthday, My Love 🎉</h1>
+  </div>
+
+  <div class="section">
+    <img src="images/photo1.jpg" alt="Photo 1" />
+    <p>
+      Watching you grow and transform into the beautiful, confident woman you are today is a joy beyond words. Your journey is inspiring, and your dedication to self-love and growth is nothing short of amazing.
+    </p>
+  </div>
+
+  <div class="section">
+    <p>
+      Your strength, determination, and positive energy light up every room. You’ve worked so hard on yourself, and it shows in every smile, every step you take. I'm proud of everything you are and everything you’re becoming.
+    </p>
+    <img src="images/photo2.jpg" alt="Photo 2" />
+  </div>
+
+  <div class="section">
+    <img src="images/photo3.jpg" alt="Photo 3" />
+    <p>
+      Here's to many more years of laughter, love, and progress. You deserve all the happiness this world has to offer. Happy 19th birthday to the girl who owns my heart — I love you more than words can express.
+    </p>
+  </div>
+
+  <div class="footer">
+    Made with endless love ❤️ | Happy Birthday, baby!
+  </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(to bottom, #ffe0e9, #ffffff);
+  color: #333;
+  text-align: center;
+}
+
+.hero {
+  padding: 80px 20px;
+  background-color: #ffb6c1;
+  color: white;
+  font-family: 'Pacifico', cursive;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 24px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.gallery img {
+  margin: 10px;
+  width: 250px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.message {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff0f5;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.footer {
+  background-color: #ffb6c1;
+  color: white;
+  padding: 20px;
+  font-size: 14px;
+}
